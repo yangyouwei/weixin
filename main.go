@@ -70,9 +70,9 @@ func main() {
 	head := &h
 	txt := args[3]
 	content := &txt
-	c := "ww5ac145aab9167a00" //按需修改为corpid,删除了部分我的信息
+	c := "ww5ac145aa" //按需修改为corpid,删除了部分我的信息
 	corpid := &c
-	s := "uhTcjUD8DfohJ2igU9jTtvNW-8w1ldq7Q0RzqfrbODU" //按需修改为secret，删除了部分我的信息
+	s := "uhTcjUD8DfohJ2ig" //按需修改为secret，删除了部分我的信息
 	corpsecret := &s
 
 	var m send_msg = send_msg{Touser: *touser, Msgtype: "text", Agentid: *agentid, Text: map[string]string{"content": *head + "\n" + *content}}
