@@ -77,7 +77,7 @@ func main() {
 
 	var m send_msg = send_msg{Touser: *touser, Msgtype: "text", Agentid: *agentid, Text: map[string]string{"content": *head + "\n" + *content}}
 
-	///-p "wx2468f5838693e123" -s "JbjkM1jYq8g3GaHjOTgj27y4n4_7Dsv4FV94I5BMRSrBsm_aTsMUVJMhGu_DFGDSF"
+	///-p "wx246" -s "JbjkM"
 	token, err := Get_token(*corpid, *corpsecret)
 	if err != nil {
 		println(err.Error())
