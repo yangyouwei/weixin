@@ -1,10 +1,3 @@
-//目的适用于zabbix微信报警
-//程序需要三个参数，有顺序的。不要搞错。
-//fmt.Println("args1 is usercount" )
-//fmt.Println("args2 is the mesages's title" )
-//fmt.Println("args3 is messages's content" )
-//在zabbix中创建用户报警媒介时，要使用企业微信中的成员详细信息中的账号
-//看注释,按需修改三处
 //modify by yangyouwei 2017/11/16 下午10:54:43
 package main
 
